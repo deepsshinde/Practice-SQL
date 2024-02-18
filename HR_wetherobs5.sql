@@ -1,0 +1,9 @@
+SELECT CITY, LENGTH(CITY) AS CityLength
+FROM STATION
+ORDER BY CityLength, CITY
+LIMIT 1; -- Shortest city
+
+SELECT CITY, LENGTH(CITY) AS CityLength
+FROM STATION
+ORDER BY CityLength DESC, CITY
+LIMIT 1; -- Longest city
