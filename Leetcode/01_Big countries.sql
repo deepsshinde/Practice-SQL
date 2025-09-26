@@ -64,4 +64,4 @@ Output:
 
 # Write your MySQL query statement below
 Select name, population, area from World
-Where area>3000000 OR population >=25000000
+Where area>=3000000 OR population >=25000000
